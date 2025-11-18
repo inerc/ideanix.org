@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3871dc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6e9fff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Stylized "I" with circuit-like elements representing tech/engineering -->
+  <rect x="35" y="10" width="30" height="80" rx="4" fill="url(#grad)"/>
+  <!-- Top dot/node -->
+  <circle cx="50" cy="10" r="8" fill="#6ccf8e"/>
+  <!-- Connection lines -->
+  <rect x="15" y="25" width="20" height="4" fill="#3871dc" opacity="0.6"/>
+  <rect x="65" y="25" width="20" height="4" fill="#3871dc" opacity="0.6"/>
+  <rect x="15" y="45" width="20" height="4" fill="#3871dc" opacity="0.4"/>
+  <rect x="65" y="45" width="20" height="4" fill="#3871dc" opacity="0.4"/>
+  <rect x="15" y="65" width="20" height="4" fill="#3871dc" opacity="0.2"/>
+  <rect x="65" y="65" width="20" height="4" fill="#3871dc" opacity="0.2"/>
+</svg>
