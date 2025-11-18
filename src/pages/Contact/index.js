@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
+// IMPORTANT: Replace YOUR_FORM_ID with your Formspree form ID
+// Get it at https://formspree.io (free tier: 50 submissions/month)
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID';
+
 class Contact extends Component {
   constructor(props) {
     super(props);
@@ -8,7 +12,9 @@ class Contact extends Component {
       email: '',
       company: '',
       message: '',
-      submitted: false
+      submitted: false,
+      submitting: false,
+      error: null
     };
   }
 
@@ -16,15 +22,44 @@ class Contact extends Component {
     this.setState({ [e.target.name]: e.target.value });
   };
 
-  handleSubmit = (e) => {
+  handleSubmit = async (e) => {
     e.preventDefault();
-    // In production, this would send to a backend
-    console.log('Form submitted:', this.state);
-    this.setState({ submitted: true });
+    this.setState({ submitting: true, error: null });
+
+    try {
+      const response = await fetch(FORMSPREE_ENDPOINT, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          name: this.state.name,
+          email: this.state.email,
+          company: this.state.company,
+          message: this.state.message
+        })
+      });
+
+      if (response.ok) {
+        this.setState({ submitted: true, submitting: false });
+      } else {
+        const data = await response.json();
+        this.setState({
+          error: data.error || 'Something went wrong. Please try again.',
+          submitting: false
+        });
+      }
+    } catch (err) {
+      this.setState({
+        error: 'Network error. Please check your connection.',
+        submitting: false
+      });
+    }
   };
 
   render() {
-    const { name, email, company, message, submitted } = this.state;
+    const { name, email, company, message, submitted, submitting, error } = this.state;
 
     return (
       <div className="contact-page">
@@ -101,8 +136,25 @@ class Contact extends Component {
                         required
                       />
                     </div>
-                    <button type="submit" className="btn btn-primary btn-lg" style={{ width: '100%' }}>
-                      Send Message
+                    {error && (
+                      <div style={{
+                        background: 'rgba(224, 47, 68, 0.1)',
+                        border: '1px solid var(--error)',
+                        borderRadius: 'var(--radius-sm)',
+                        padding: 'var(--space-md)',
+                        marginBottom: 'var(--space-md)',
+                        color: 'var(--error)'
+                      }}>
+                        {error}
+                      </div>
+                    )}
+                    <button
+                      type="submit"
+                      className="btn btn-primary btn-lg"
+                      style={{ width: '100%' }}
+                      disabled={submitting}
+                    >
+                      {submitting ? 'Sending...' : 'Send Message'}
                     </button>
                   </form>
                 )}
