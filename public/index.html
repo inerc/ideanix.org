@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#111217">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Ideanix - Engineering tools and open-source solutions for observability, load testing, infrastructure analysis, and industrial automation.">
+    <meta name="keywords" content="observability, load testing, infrastructure, automation, open source, DevOps, SRE">
+    <meta name="author" content="Ideanix, LLC">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Ideanix - Engineering Tools & Open Source">
+    <meta property="og:description" content="Enterprise-grade tools for observability, load testing, infrastructure analysis, and industrial automation.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ideanix.org">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ideanix - Engineering Tools & Open Source">
+    <meta name="twitter:description" content="Enterprise-grade tools for observability, load testing, infrastructure analysis, and industrial automation.">
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Ideanix - Engineering Tools & Open Source</title>
+
+    <!-- SPA Redirect Script for GitHub Pages -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search) {
+          var q = {};
+          l.search.slice(1).split('&').forEach(function(v) {
+            var a = v.split('=');
+            q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+          });
+          if (q.p !== undefined) {
+            window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + (q.p || '') +
+              (q.q ? ('?' + q.q) : '') +
+              l.hash
+            );
+          }
+        }
+      }(window.location))
+    </script>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>
