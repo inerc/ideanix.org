@@ -1,0 +1,93 @@
+:root {
+  /* Backgrounds - Grafana-style dark theme */
+  --bg-canvas: #111217;
+  --bg-primary: #181b1f;
+  --bg-secondary: #22252b;
+  --bg-tertiary: #2a2e35;
+  --bg-hover: #32363e;
+
+  /* Text */
+  --text-primary: #d8d9da;
+  --text-secondary: #8e8e8e;
+  --text-disabled: #6e6e6e;
+  --text-link: #6e9fff;
+
+  /* Accents */
+  --primary: #3871dc;
+  --primary-hover: #4a82ed;
+  --success: #6ccf8e;
+  --warning: #ff9830;
+  --error: #e02f44;
+  --info: #6e9fff;
+
+  /* Borders */
+  --border-weak: #2a2e35;
+  --border-medium: #3d3f44;
+  --border-strong: #5a5d64;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.5);
+
+  /* Typography */
+  --font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+
+  /* Font sizes */
+  --fs-xs: 11px;
+  --fs-sm: 12px;
+  --fs-md: 14px;
+  --fs-lg: 16px;
+  --fs-xl: 20px;
+  --fs-2xl: 24px;
+  --fs-3xl: 32px;
+  --fs-4xl: 48px;
+  --fs-5xl: 64px;
+
+  /* Line heights */
+  --lh-tight: 1.2;
+  --lh-normal: 1.5;
+  --lh-relaxed: 1.75;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  /* Container */
+  --container-max: 1280px;
+  --container-padding: 24px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 350ms ease;
+
+  /* Z-index */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-modal-backdrop: 400;
+  --z-modal: 500;
+  --z-tooltip: 600;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --container-padding: 16px;
+    --fs-4xl: 36px;
+    --fs-5xl: 48px;
+  }
+}

@@ -12,7 +12,6 @@ jest-results.json
 
 # css
 src/index.css
-src/styles/*.css
 
 # misc
 .DS_Store
