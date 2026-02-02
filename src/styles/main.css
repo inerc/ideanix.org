@@ -775,3 +775,109 @@ p {
   font-size: var(--fs-sm);
   color: var(--text-secondary);
 }
+
+/* Download Section */
+.download-section {
+  text-align: center;
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-lg);
+  flex-wrap: wrap;
+}
+
+.download-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-lg) var(--space-xl);
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: all var(--transition-normal);
+  min-width: 200px;
+}
+
+.download-btn:hover {
+  background: var(--bg-tertiary);
+  border-color: var(--border-strong);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  color: var(--text-primary);
+}
+
+.download-btn svg {
+  flex-shrink: 0;
+}
+
+.download-btn span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.download-btn strong {
+  font-size: var(--fs-lg);
+  font-weight: 600;
+}
+
+.download-btn small {
+  font-size: var(--fs-xs);
+  color: var(--text-secondary);
+}
+
+.download-btn-windows:hover {
+  border-color: #0078d4;
+}
+
+.download-btn-linux:hover {
+  border-color: #fcc624;
+}
+
+.download-btn-macos:hover {
+  border-color: #999;
+}
+
+@media (max-width: 768px) {
+  .download-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .download-btn {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+/* Video Section */
+.video-section {
+  text-align: center;
+}
+
+.video-container {
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  background: var(--bg-primary);
+  border: 1px solid var(--border-weak);
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .video-container {
+    border-radius: var(--radius-md);
+  }
+}

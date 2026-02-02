@@ -129,10 +129,7 @@ const About = () => {
             <div className="card">
               <h4 className="card-title">Legal Entity</h4>
               <p style={{ color: 'var(--text-secondary)', margin: 0 }}>
-                <strong>Ideanix, LLC</strong><br />
-                Delaware Limited Liability Company<br />
-                EIN: 35-2857145<br />
-                Incorporated: June 20, 2024
+                <strong>Ideanix Labs Inc.</strong>
               </p>
             </div>
             <div className="card">

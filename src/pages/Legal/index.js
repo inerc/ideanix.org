@@ -91,7 +91,7 @@ const PrivacyPolicy = () => (
     <p style={{ color: 'var(--text-secondary)', lineHeight: '1.8' }}>
       If you have any questions about this Privacy Policy, please contact us at:<br />
       <a href="mailto:privacy@ideanix.org">privacy@ideanix.org</a><br /><br />
-      Ideanix, LLC<br />
+      Ideanix Labs Inc.<br />
       10 Kunayeva Street, Emerald Tower, 3rd Floor<br />
       Astana, Kazakhstan 010000
     </p>
@@ -120,13 +120,13 @@ const TermsOfService = () => (
     <h3 style={{ marginTop: 'var(--space-xl)', marginBottom: 'var(--space-md)' }}>3. Intellectual Property</h3>
     <p style={{ color: 'var(--text-secondary)', lineHeight: '1.8', marginBottom: 'var(--space-md)' }}>
       The Ideanix services and their original content, features, and functionality are owned by
-      Ideanix, LLC and are protected by international copyright, trademark, and other intellectual
+      Ideanix Labs Inc. and are protected by international copyright, trademark, and other intellectual
       property laws.
     </p>
 
     <h3 style={{ marginTop: 'var(--space-xl)', marginBottom: 'var(--space-md)' }}>4. Limitation of Liability</h3>
     <p style={{ color: 'var(--text-secondary)', lineHeight: '1.8', marginBottom: 'var(--space-md)' }}>
-      Ideanix, LLC shall not be liable for any indirect, incidental, special, consequential, or
+      Ideanix Labs Inc. shall not be liable for any indirect, incidental, special, consequential, or
       punitive damages resulting from your use of or inability to use the services.
     </p>
 

@@ -136,6 +136,50 @@ Integrate Perfboard into your development workflow to catch performance issues e
     color: '#e02f44'
   },
   {
+    id: 'tg-scrapper',
+    name: 'TG-Scrapper',
+    tagline: 'Telegram Data Extraction Tool',
+    description: 'Powerful tool for extracting and analyzing data from Telegram channels and groups. Available for Windows, Linux, and macOS.',
+    longDescription: `TG-Scrapper is a professional-grade tool for collecting and analyzing data from Telegram. Extract messages, media, user information, and metadata from public channels and groups with ease.
+
+Built for researchers, analysts, and businesses who need to monitor and analyze Telegram content at scale. Features include scheduled scraping, export to multiple formats, and advanced filtering options.`,
+    pricing: {
+      startingAt: 300,
+      period: 'month',
+      currency: 'USD'
+    },
+    features: [
+      'Extract messages from channels and groups',
+      'Download media files (photos, videos, documents)',
+      'Export to JSON, CSV, and Excel formats',
+      'Scheduled automatic scraping',
+      'Advanced filtering and search',
+      'User metadata extraction',
+      'Rate limiting and proxy support',
+      'Cross-platform (Windows, Linux, macOS)'
+    ],
+    useCases: [
+      'Market research and competitive analysis',
+      'Social media monitoring',
+      'Academic research',
+      'Content archiving',
+      'OSINT investigations'
+    ],
+    integrations: ['Telegram API', 'JSON', 'CSV', 'Excel', 'SQLite'],
+    icon: 'telegram',
+    color: '#0088cc',
+    downloads: {
+      windows: '/downloads/tg-scrapper-windows-amd64.exe',
+      macosIntel: '/downloads/tg-scrapper-darwin-amd64',
+      macosArm: '/downloads/tg-scrapper-darwin-arm64'
+    },
+    video: {
+      src: '/downloads/scrapper.mov',
+      title: 'TG-Scrapper Quick Start Guide'
+    },
+    hasTrial: true
+  },
+  {
     id: 'industrial-automation',
     name: 'Industrial Automation',
     tagline: 'Engineering Services',

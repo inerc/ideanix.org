@@ -12,7 +12,8 @@ export class PublicRoute extends React.Component {
   }
 
   render() {
-    return <Route render={props => this.publicAccess(props)} />;
+    const { path, exact } = this.props;
+    return <Route path={path} exact={exact} render={props => this.publicAccess(props)} />;
   }
 }
 

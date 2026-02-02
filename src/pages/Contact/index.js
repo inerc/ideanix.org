@@ -193,9 +193,7 @@ class Contact extends Component {
                 <div className="card">
                   <h4 className="card-title">Company</h4>
                   <p style={{ color: 'var(--text-secondary)', margin: 0 }}>
-                    Ideanix, LLC<br />
-                    Delaware LLC<br />
-                    EIN: 35-2857145
+                    Ideanix Labs Inc.
                   </p>
                 </div>
               </div>
