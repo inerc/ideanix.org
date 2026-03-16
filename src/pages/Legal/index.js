@@ -91,9 +91,12 @@ const PrivacyPolicy = () => (
     <p style={{ color: 'var(--text-secondary)', lineHeight: '1.8' }}>
       If you have any questions about this Privacy Policy, please contact us at:<br />
       <a href="mailto:privacy@ideanix.org">privacy@ideanix.org</a><br /><br />
-      Ideanix Labs Inc.<br />
+      <strong>IDEANIX LLC</strong><br />
       10 Kunayeva Street, Emerald Tower, 3rd Floor<br />
-      Astana, Kazakhstan 010000
+      Astana, Kazakhstan 010000<br /><br />
+      <strong>Ideanix Labs Inc.</strong><br />
+      103-2727 Steeles Ave West<br />
+      Toronto, Ontario, M3J3G9, Canada
     </p>
   </div>
 );
@@ -120,20 +123,26 @@ const TermsOfService = () => (
     <h3 style={{ marginTop: 'var(--space-xl)', marginBottom: 'var(--space-md)' }}>3. Intellectual Property</h3>
     <p style={{ color: 'var(--text-secondary)', lineHeight: '1.8', marginBottom: 'var(--space-md)' }}>
       The Ideanix services and their original content, features, and functionality are owned by
-      Ideanix Labs Inc. and are protected by international copyright, trademark, and other intellectual
+      IDEANIX LLC and Ideanix Labs Inc. and are protected by international copyright, trademark, and other intellectual
       property laws.
     </p>
 
     <h3 style={{ marginTop: 'var(--space-xl)', marginBottom: 'var(--space-md)' }}>4. Limitation of Liability</h3>
     <p style={{ color: 'var(--text-secondary)', lineHeight: '1.8', marginBottom: 'var(--space-md)' }}>
-      Ideanix Labs Inc. shall not be liable for any indirect, incidental, special, consequential, or
+      IDEANIX LLC and Ideanix Labs Inc. shall not be liable for any indirect, incidental, special, consequential, or
       punitive damages resulting from your use of or inability to use the services.
     </p>
 
     <h3 style={{ marginTop: 'var(--space-xl)', marginBottom: 'var(--space-md)' }}>5. Contact</h3>
     <p style={{ color: 'var(--text-secondary)', lineHeight: '1.8' }}>
       For questions about these Terms, contact us at:<br />
-      <a href="mailto:legal@ideanix.org">legal@ideanix.org</a>
+      <a href="mailto:legal@ideanix.org">legal@ideanix.org</a><br /><br />
+      <strong>IDEANIX LLC</strong><br />
+      10 Kunayeva Street, Emerald Tower, 3rd Floor<br />
+      Astana, Kazakhstan 010000<br /><br />
+      <strong>Ideanix Labs Inc.</strong><br />
+      103-2727 Steeles Ave West<br />
+      Toronto, Ontario, M3J3G9, Canada
     </p>
   </div>
 );
@@ -168,7 +177,13 @@ const RefundPolicy = () => (
     <h3 style={{ marginTop: 'var(--space-xl)', marginBottom: 'var(--space-md)' }}>4. Contact</h3>
     <p style={{ color: 'var(--text-secondary)', lineHeight: '1.8' }}>
       For billing questions or refund requests, contact us at:<br />
-      <a href="mailto:billing@ideanix.org">billing@ideanix.org</a>
+      <a href="mailto:billing@ideanix.org">billing@ideanix.org</a><br /><br />
+      <strong>IDEANIX LLC</strong><br />
+      10 Kunayeva Street, Emerald Tower, 3rd Floor<br />
+      Astana, Kazakhstan 010000<br /><br />
+      <strong>Ideanix Labs Inc.</strong><br />
+      103-2727 Steeles Ave West<br />
+      Toronto, Ontario, M3J3G9, Canada
     </p>
   </div>
 );

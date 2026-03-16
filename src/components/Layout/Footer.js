@@ -13,7 +13,7 @@ const Footer = () => {
               load testing, infrastructure analysis, and industrial automation.
             </p>
             <p className="footer-description" style={{ marginTop: '16px' }}>
-              <strong>Ideanix Labs Inc.</strong>
+              <strong>IDEANIX LLC</strong> / <strong>Ideanix Labs Inc.</strong>
             </p>
           </div>
 
@@ -58,9 +58,12 @@ const Footer = () => {
                 <a href="mailto:hello@ideanix.org">hello@ideanix.org</a>
               </li>
               <li style={{ marginTop: '8px', color: 'var(--text-secondary)', fontSize: 'var(--fs-xs)' }}>
-                10 Kunayeva Street<br />
-                Emerald Tower, 3rd Floor<br />
+                10 Kunayeva Street, Emerald Tower, 3rd Floor<br />
                 Astana, Kazakhstan 010000
+              </li>
+              <li style={{ marginTop: '8px', color: 'var(--text-secondary)', fontSize: 'var(--fs-xs)' }}>
+                103-2727 Steeles Ave West<br />
+                Toronto, Ontario, M3J3G9, Canada
               </li>
             </ul>
           </div>
@@ -73,7 +76,7 @@ const Footer = () => {
             <Link to="/legal/refund">Refund Policy</Link>
           </div>
           <div className="footer-copyright">
-            © {new Date().getFullYear()} Ideanix Labs Inc. All rights reserved.
+            © {new Date().getFullYear()} IDEANIX LLC / Ideanix Labs Inc. All rights reserved.
           </div>
         </div>
       </div>

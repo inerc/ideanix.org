@@ -182,18 +182,18 @@ class Contact extends Component {
                 </div>
 
                 <div className="card mb-lg">
-                  <h4 className="card-title">Office</h4>
+                  <h4 className="card-title">IDEANIX LLC</h4>
                   <p style={{ color: 'var(--text-secondary)', margin: 0 }}>
-                    10 Kunayeva Street<br />
-                    Emerald Tower, 3rd Floor<br />
+                    10 Kunayeva Street, Emerald Tower, 3rd Floor<br />
                     Astana, Kazakhstan 010000
                   </p>
                 </div>
 
                 <div className="card">
-                  <h4 className="card-title">Company</h4>
+                  <h4 className="card-title">Ideanix Labs Inc.</h4>
                   <p style={{ color: 'var(--text-secondary)', margin: 0 }}>
-                    Ideanix Labs Inc.
+                    103-2727 Steeles Ave West<br />
+                    Toronto, Ontario, M3J3G9, Canada
                   </p>
                 </div>
               </div>

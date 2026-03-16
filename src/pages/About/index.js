@@ -127,17 +127,19 @@ const About = () => {
           </div>
           <div className="grid grid-2">
             <div className="card">
-              <h4 className="card-title">Legal Entity</h4>
+              <h4 className="card-title">IDEANIX LLC</h4>
               <p style={{ color: 'var(--text-secondary)', margin: 0 }}>
-                <strong>Ideanix Labs Inc.</strong>
+                Delaware LLC<br />
+                10 Kunayeva Street, Emerald Tower, 3rd Floor<br />
+                Astana, Kazakhstan 010000
               </p>
             </div>
             <div className="card">
-              <h4 className="card-title">Office</h4>
+              <h4 className="card-title">Ideanix Labs Inc.</h4>
               <p style={{ color: 'var(--text-secondary)', margin: 0 }}>
-                10 Kunayeva Street<br />
-                Emerald Tower, 3rd Floor<br />
-                Astana, Kazakhstan 010000
+                103-2727 Steeles Ave West<br />
+                Toronto, Ontario, M3J3G9<br />
+                Canada
               </p>
             </div>
           </div>
