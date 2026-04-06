@@ -1,5 +1,0 @@
-User-agent: *
-
-Host: http://ideanix.ru/
-
-Sitemap: http://ideanix.ru/sitemap.xml
